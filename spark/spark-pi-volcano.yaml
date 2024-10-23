@@ -17,7 +17,7 @@ apiVersion: sparkoperator.k8s.io/v1beta2
 kind: SparkApplication
 metadata:
   name: spark-pi-volcano
-  namespace: default
+  namespace: spark-operator
 spec:
   type: Scala
   mode: cluster
