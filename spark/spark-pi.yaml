@@ -37,6 +37,6 @@ spec:
   executor:
     labels:
       version: 3.5.3
-    instances: 1
-    cores: 1
+    instances: 2
+    cores: 2
     memory: 512m
