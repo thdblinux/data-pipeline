@@ -31,12 +31,12 @@ spec:
   driver:
     labels:
       version: 3.5.3
-    cores: 1
-    memory: 512m
+    cores: 2
+    memory: 600m
     serviceAccount: spark-operator-spark
   executor:
     labels:
       version: 3.5.3
-    instances: 1
-    cores: 1
-    memory: 512m
+    instances: 2
+    cores: 2
+    memory: 600m
